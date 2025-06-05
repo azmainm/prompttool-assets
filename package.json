@@ -1,0 +1,38 @@
+{
+    "name": "prompttool-assets",
+    "version": "1.0.0",
+    "description": "Reusable prompt engineering assets including role descriptions, technical contexts, and analysis frameworks",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist/**/*",
+      "src/**/*",
+      "README.md"
+    ],
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "prepublishOnly": "npm run build",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+      "prompt-engineering",
+      "ai",
+      "role-descriptions",
+      "technical-context",
+      "analysis-framework"
+    ],
+    "author": "Doug Whitewolff",
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^5.7.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/prompttool-assets.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yourusername/prompttool-assets/issues"
+    },
+    "homepage": "https://github.com/yourusername/prompttool-assets#readme"
+  }
