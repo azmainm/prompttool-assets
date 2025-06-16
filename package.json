@@ -1,6 +1,6 @@
 {
     "name": "prompttool-assets",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Reusable prompt engineering assets including role descriptions, technical contexts, and analysis frameworks",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -36,6 +36,6 @@
     },
     "homepage": "https://github.com/yourusername/prompttool-assets#readme",
     "dependencies": {
-        "prompttool-assets": "^1.0.1"
+        "prompttool-assets": "^1.0.0"
     }
 }
