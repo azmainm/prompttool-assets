@@ -1,5 +1,5 @@
 export const roleTechnicalContexts: { [key: string]: string } = {
-  'Expert Software Developer': `* **Stack**: Next.js 15.x, React 19.x, TypeScript 5.x, Tailwind 3.x
+  'Senior Software Developer': `* **Stack**: Next.js 15.x, React 19.x, TypeScript 5.x, Tailwind 3.x
 * **Test Pattern**: Jest + React Testing Library
 * **Formatting**: Prettier default config`,
 
