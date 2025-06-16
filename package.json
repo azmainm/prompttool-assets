@@ -36,6 +36,6 @@
     },
     "homepage": "https://github.com/yourusername/prompttool-assets#readme",
     "dependencies": {
-        "prompttool-assets": "^1.0.0"
+        "prompttool-assets": "^1.0.1"
     }
 }
