@@ -3,15 +3,15 @@ export const roleTechnicalContexts: { [key: string]: string } = {
 * **Test Pattern**: Jest + React Testing Library
 * **Formatting**: Prettier default config`,
 
-  'QA / Test Automation Engineer': `* **Jest 30.x**, **React Testing Library 15.x**
+  'QA/Test Automation Engineer': `* **Jest 30.x**, **React Testing Library 15.x**
 * **Playwright 1.x** for e2e (\`npx playwright test\`)
 * **Coverage**: Istanbul (text report acceptable)`,
 
-  'DevOps / Release Engineer': `* **Runner Image**: \`ubuntu-latest\`
+  'DevOps/Release Engineer': `* **Runner Image**: \`ubuntu-latest\`
 * **Package Manager**: \`pnpm\`
 * **Deploy**: \`vercel --prod\` or \`vercel --prebuilt\` (as specified by user)`,
 
-  'UI / UX Designer': `* **Typography Scale**: base = \`1rem\`, line-height = \`1.5\`
+  'UI/UX Designer': `* **Typography Scale**: base = \`1rem\`, line-height = \`1.5\`
 * **Tailwind Colour Palette**: \`primary\`, \`secondary\`, \`neutral\``,
 
   'Product Manager': `* **Sprint length**: 2 weeks (override if user supplies different cadence)
@@ -27,7 +27,7 @@ export const roleTechnicalContexts: { [key: string]: string } = {
   'Prompt Engineer': `* **Target Models**: \`gpt-4o\`, \`gpt-4o-mini\`
 * **JSON Mode** preferred for returning structured data`,
 
-  'Analytics / Data Engineer': `* **SQL Dialect**: Standard SQL (BigQuery-compatible)
+  'Analytics/Data Engineer': `* **SQL Dialect**: Standard SQL (BigQuery-compatible)
 * **Time Zone**: UTC for all timestamps`,
 
   'Accessibility Specialist': `* **Testing**: aXe Core CLI (\`npx axe\`) or Lighthouse
