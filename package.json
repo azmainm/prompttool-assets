@@ -34,8 +34,5 @@
     "bugs": {
         "url": "https://github.com/yourusername/prompttool-assets/issues"
     },
-    "homepage": "https://github.com/yourusername/prompttool-assets#readme",
-    "dependencies": {
-        "prompttool-assets": "^1.0.0"
-    }
+    "homepage": "https://github.com/yourusername/prompttool-assets#readme"
 }
