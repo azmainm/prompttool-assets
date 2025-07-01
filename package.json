@@ -13,7 +13,7 @@
         "build": "tsc",
         "dev": "tsc --watch",
         "prepublishOnly": "npm run build",
-        "test": "echo \"No tests specified\" && exit 0"
+        "test": "node test-enums.js"
     },
     "keywords": [
         "prompt-engineering",
