@@ -1,6 +1,6 @@
 {
     "name": "prompttool-assets",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Reusable prompt engineering assets including role descriptions, technical contexts, and analysis frameworks",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
