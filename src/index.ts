@@ -1,5 +1,22 @@
+// Export role types and enums
+export { 
+  RoleCategory, 
+  CodingRoles, 
+  NonCodingRoles, 
+  getRoleCategory, 
+  isCodingRole 
+} from './roleTypes';
+export type { 
+  AllRoles, 
+  RoleDescriptions, 
+  RoleTechnicalContexts 
+} from './roleTypes';
+
+// Export role data
 export { roleTechnicalContexts } from './roleTechnicalContexts';
 export { roleDescriptions } from './roleDescriptions';
+
+// Export other modules
 export { defaultDescriptions } from './defaultDescriptions';
 export { defaultContext } from './defaultContext';
 export { 
@@ -8,11 +25,7 @@ export {
   defaultAnalysisFramework 
 } from './defaultAnalysisFramework';
 
-// Type definitions for better TypeScript support
-export interface RoleContextMap {
-  [key: string]: string;
-}
-
+// Legacy type definitions for backward compatibility
 export interface AnalysisCues {
   [key: string]: string;
 }
