@@ -18,8 +18,6 @@ export const analysisCues = {
     'Reason: … | Action: … | Observation: … (repeat). Return final answer only.',
   Reflection:
     'Draft your answer, reflect on possible errors in one paragraph, revise if needed, output revised answer only.',
-  'Role Prompting + CoT':
-    'You are a skeptical physics professor; think out loud briefly, then answer in one sentence.',
   'Doc-Driven':
     'Create the specification first, then the code, then the tests in a cycle.',
 };
@@ -32,7 +30,7 @@ export const presetFrameworks = {
     'Least-to-Most',
     'Self-Consistency Sampling',
   ],
-  'Bug hunting / hot-fix': ['Role Prompting + CoT', 'Least-to-Most', 'ReAct'],
+  'Bug hunting / hot-fix': ['Least-to-Most', 'ReAct'],
   'Database migration / schema refactor': [
     'Tree-of-Thought',
     'Plan-and-Solve',

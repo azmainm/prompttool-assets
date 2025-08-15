@@ -11,14 +11,14 @@ export enum CodingRoles {
   ANALYTICS_DATA_ENGINEER = 'Analytics/Data Engineer',
   UI_UX_DESIGNER = 'UI/UX Designer',
   PRODUCT_MANAGER = 'Product Manager',
-  PROJECT_MANAGER = 'Project Manager'
+  PROJECT_MANAGER = 'Project Manager',
+  ACCESSIBILITY_SPECIALIST = 'Accessibility Specialist'
 }
 
 export enum NonCodingRoles {
   TECHNICAL_WRITER = 'Technical Writer',
   GRANT_WRITER = 'Grant Writer',
   MARKETING_COMMUNICATIONS = 'Marketing & Communications',
-  ACCESSIBILITY_SPECIALIST = 'Accessibility Specialist',
   PROMPT_ENGINEER = 'Prompt Engineer'
 }
 
